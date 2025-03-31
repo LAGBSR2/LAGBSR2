@@ -37,8 +37,9 @@ nav {
   justify-content: center;
   gap: 2em;
   padding: 1em 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* optionnel, pour relief */
-  border: none; /* au cas où une bordure se soit glissée */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  border: none;
+  border-radius: 0 0 8px 8px; /* coins arrondis en bas seulement */
 }
  * {
   box-sizing: border-box;
@@ -60,15 +61,16 @@ nav a:hover {
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-    footer {
-  background: rgba(0, 128, 128, 0.9);
+   footer {
+  background: #8B4513;
   color: white;
   text-align: center;
   padding: 1em;
-  /* SUPPRIME ceci : */
-  /* position: fixed; */
-  /* bottom: 0; */
-  /* width: 100%; */
+  margin-top: 2em;
+}
+    footer p {
+  font-size: 0.9rem;
+  margin: 0;
 }
     .gallery {
       display: grid;
