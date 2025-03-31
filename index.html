@@ -30,17 +30,27 @@ body::before {
 
 nav {
   background: #A0522D;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  padding: 1em 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* optionnel, pour relief */
+  border: none; /* au cas où une bordure se soit glissée */
 }
-
+ * {
+  box-sizing: border-box;
+}
 nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 nav a:hover {
   color: #FFD700;
 }
+   
     .container {
       padding: 2em;
       max-width: 900px;
