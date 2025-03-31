@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L'AGBSR2 - Nomad'Raid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://cdn.pixabay.com/photo/2020/06/12/13/12/dunes-5289771_1280.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    header {
+      background: rgba(0, 128, 128, 0.9);
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background: rgba(0, 102, 102, 0.9);
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: rgba(0, 128, 128, 0.9);
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>L'AGBSR2 - Nomad'Raid</h1>
+    <p>Solidarité, Aventure, Écoresponsabilité</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#projet">Projet</a>
+    <a href="#equipe">Équipe</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="accueil">
+      <h2>Bienvenue</h2>
+      <p>Notre association participe au Nomad'Raid, un raid humanitaire et solidaire. Découvrez notre projet et rejoignez-nous dans cette aventure hors du commun !</p>
+    </section>
+
+    <section id="projet">
+      <h2>Notre Projet</h2>
+      <p>L'objectif est de distribuer du matériel scolaire, sportif et médical à travers un parcours de plusieurs milliers de kilomètres en Peugeot 205. Nous visons à sensibiliser à la solidarité internationale tout en vivant une expérience unique.</p>
+    </section>
+
+    <section id="equipe">
+      <h2>Notre Équipe</h2>
+      <ul>
+        <li><strong>Clément LEFEBVRE</strong> - Président</li>
+        <li><strong>Elouan CORLOUER</strong> - Trésorier</li>
+      </ul>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie</h2>
+      <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Peugeot_205_Dakar_1988.jpg/640px-Peugeot_205_Dakar_1988.jpg" alt="Peugeot 205 dans le désert">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Peugeot_205_T16_Dakar.JPG/640px-Peugeot_205_T16_Dakar.JPG" alt="Peugeot 205 T16 Dakar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Peugeot_205_T16_Evolution_2.jpg/640px-Peugeot_205_T16_Evolution_2.jpg" alt="Peugeot 205 T16 désert">
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email : contact@agbsr2-nomadraid.fr</p>
+      <p>Adresse : 1 Impasse le Barrail, 33230 Saint Christophe de Double</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 L'AGBSR2 - Nomad'Raid. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
