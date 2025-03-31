@@ -116,6 +116,17 @@ section:last-of-type {
       padding: 1em;
       font-size: 0.9rem;
     }
+    #localisation {
+  padding: 2em;
+  max-width: 1000px;
+  margin: auto;
+}
+.map {
+  margin-top: 1em;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
   </style>
 </head>
 <body>
@@ -171,9 +182,23 @@ section:last-of-type {
       <p>Adresse : 1 Impasse le Barrail, 33230 Saint Christophe de Double</p>
     </section>
   </div>
-
+ <section id="localisation">
+  <h2>Où nous trouver ?</h2>
+  <div class="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2897.012023499882!2d0.07597311583832172!3d45.162197858329036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ff4d9f15eb4d47%3A0x3d49ef30d3f9883a!2s1%20Imp.%20le%20Barrail%2C%2033230%20St%20Christophe%20de%20Double!5e0!3m2!1sfr!2sfr!4v1711870000000!5m2!1sfr!2sfr"
+      width="100%"
+      height="300"
+      style="border:0; border-radius: 10px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
   <footer>
     <p>&copy; 2025 L'AGBSR2 - Nomad'Raid. Tous droits réservés.</p>
+   
   </footer>
 </body>
 </html>
