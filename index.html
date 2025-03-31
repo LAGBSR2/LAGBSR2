@@ -32,6 +32,21 @@
       text-align: center;
       border: none;
     }
+    header h1 {
+      animation: slideIn 1.2s ease-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
     nav {
       background: #A0522D;
       display: flex;
