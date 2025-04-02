@@ -137,6 +137,58 @@ section:last-of-type {
       padding: 1em;
       font-size: 0.9rem;
     }
+    #faq {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#faq h2 {
+    text-align: center;
+    color: #FF7000;
+}
+
+.faq-item {
+    margin-bottom: 1.5em;
+}
+
+.faq-item h3 {
+    color: #333;
+    font-size: 1.4em;
+}
+
+.faq-item p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+form {
+    margin-top: 2em;
+    display: grid;
+    gap: 1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button {
+    background-color: #FF7000;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF4500;
+}
     #cagnotte {
   text-align: center;
   padding: 2em;
@@ -235,7 +287,39 @@ section:last-of-type {
         </div>
       </div>
     </section>
+<section id="faq">
+    <h2>Questions Fréquemment Posées</h2>
+    <div class="faq-item">
+        <h3>Comment le Nomad'Raid aide-t-il les communautés locales ?</h3>
+        <p>Le Nomad'Raid distribue du matériel scolaire, médical et sportif dans des zones reculées, tout en sensibilisant les populations locales à des enjeux environnementaux et sociaux.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Comment puis-je participer au projet ?</h3>
+        <p>Vous pouvez vous inscrire en tant que participant ou faire un don sur notre plateforme de cagnotte en ligne.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Quel type de matériel est distribué pendant le raid ?</h3>
+        <p>Le matériel distribué inclut des fournitures scolaires, des équipements sportifs et du matériel médical pour les zones les plus isolées.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Comment mon entreprise peut-elle devenir partenaire ou sponsor ?</h3>
+        <p>Nous avons plusieurs options de partenariat, incluant la visibilité sur nos véhicules et notre matériel. Contactez-nous pour plus de détails.</p>
+    </div>
 
+    <h3>Posez votre question :</h3>
+    <form action="mailto:votre.email@example.com" method="post" enctype="text/plain">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="question">Votre question :</label>
+        <textarea id="question" name="question" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
     <section id="contact">
       <h2>Contact</h2>
       <p>Email : agbsr2@gmail.com</p>
